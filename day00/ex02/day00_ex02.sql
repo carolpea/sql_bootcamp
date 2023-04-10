@@ -1,0 +1,9 @@
+SELECT name AS Пиццерия, rating AS Рейтинг
+FROM pizzeria
+WHERE  (rating >= 3.5 and rating <= 5)
+ORDER BY rating;
+
+SELECT name AS Пиццерия, rating AS Рейтинг
+FROM pizzeria
+WHERE rating BETWEEN 3.5 AND 5
+ORDER BY rating;
